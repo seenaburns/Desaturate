@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041C4C491581BD6B0070D052 /* desaturate.icns in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C481581BD6B0070D052 /* desaturate.icns */; };
+		041C4C521581BDEC0070D052 /* desaturate-icon_20_alternate.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4A1581BDEC0070D052 /* desaturate-icon_20_alternate.png */; };
+		041C4C531581BDEC0070D052 /* desaturate-icon_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4B1581BDEC0070D052 /* desaturate-icon_20.png */; };
+		041C4C541581BDEC0070D052 /* desaturate-icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4C1581BDEC0070D052 /* desaturate-icon_512.png */; };
+		041C4C551581BDEC0070D052 /* desaturate.icns in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4D1581BDEC0070D052 /* desaturate.icns */; };
+		041C4C561581BDEC0070D052 /* grayscaler_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4E1581BDEC0070D052 /* grayscaler_20.png */; };
+		041C4C571581BDEC0070D052 /* grayscaler_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4F1581BDEC0070D052 /* grayscaler_512.png */; };
+		041C4C581581BDEC0070D052 /* grayscaler_alternate_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */; };
+		041C4C591581BDEC0070D052 /* grayscaler.icns in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C511581BDEC0070D052 /* grayscaler.icns */; };
+		048DBB071554760100B227AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048DBB061554760100B227AB /* Cocoa.framework */; };
+		048DBB111554760100B227AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB0F1554760100B227AB /* InfoPlist.strings */; };
+		048DBB131554760100B227AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DBB121554760100B227AB /* main.m */; };
+		048DBB171554760100B227AB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB151554760100B227AB /* Credits.rtf */; };
+		048DBB1A1554760100B227AB /* GrayscalerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DBB191554760100B227AB /* GrayscalerAppDelegate.m */; };
+		048DBB1D1554760200B227AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB1B1554760200B227AB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041C4C481581BD6B0070D052 /* desaturate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = desaturate.icns; sourceTree = "<group>"; };
+		041C4C4A1581BDEC0070D052 /* desaturate-icon_20_alternate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "desaturate-icon_20_alternate.png"; path = "Icons/desaturate-icon_20_alternate.png"; sourceTree = SOURCE_ROOT; };
+		041C4C4B1581BDEC0070D052 /* desaturate-icon_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "desaturate-icon_20.png"; path = "Icons/desaturate-icon_20.png"; sourceTree = SOURCE_ROOT; };
+		041C4C4C1581BDEC0070D052 /* desaturate-icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "desaturate-icon_512.png"; path = "Icons/desaturate-icon_512.png"; sourceTree = SOURCE_ROOT; };
+		041C4C4D1581BDEC0070D052 /* desaturate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = desaturate.icns; path = Icons/desaturate.icns; sourceTree = SOURCE_ROOT; };
+		041C4C4E1581BDEC0070D052 /* grayscaler_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_20.png; path = Icons/grayscaler_20.png; sourceTree = SOURCE_ROOT; };
+		041C4C4F1581BDEC0070D052 /* grayscaler_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_512.png; path = Icons/grayscaler_512.png; sourceTree = SOURCE_ROOT; };
+		041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_alternate_20.png; path = Icons/grayscaler_alternate_20.png; sourceTree = SOURCE_ROOT; };
+		041C4C511581BDEC0070D052 /* grayscaler.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = grayscaler.icns; path = Icons/grayscaler.icns; sourceTree = SOURCE_ROOT; };
+		048DBB021554760100B227AB /* Desaturate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desaturate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048DBB061554760100B227AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		048DBB091554760100B227AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		048DBB0A1554760100B227AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		048DBB0B1554760100B227AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		048DBB0E1554760100B227AB /* Desaturate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desaturate-Info.plist"; sourceTree = "<group>"; };
+		048DBB101554760100B227AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		048DBB121554760100B227AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048DBB141554760100B227AB /* Desaturate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Desaturate-Prefix.pch"; sourceTree = "<group>"; };
+		048DBB161554760100B227AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		048DBB181554760100B227AB /* GrayscalerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrayscalerAppDelegate.h; sourceTree = "<group>"; };
+		048DBB191554760100B227AB /* GrayscalerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayscalerAppDelegate.m; sourceTree = "<group>"; };
+		048DBB1C1554760200B227AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048DBAFF1554760100B227AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DBB071554760100B227AB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048DBAF71554760100B227AB = {
+			isa = PBXGroup;
+			children = (
+				041C4C481581BD6B0070D052 /* desaturate.icns */,
+				048DBB0C1554760100B227AB /* Grayscaler */,
+				048DBB051554760100B227AB /* Frameworks */,
+				048DBB031554760100B227AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048DBB031554760100B227AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048DBB021554760100B227AB /* Desaturate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048DBB051554760100B227AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048DBB061554760100B227AB /* Cocoa.framework */,
+				048DBB081554760100B227AB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		048DBB081554760100B227AB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048DBB091554760100B227AB /* AppKit.framework */,
+				048DBB0A1554760100B227AB /* CoreData.framework */,
+				048DBB0B1554760100B227AB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		048DBB0C1554760100B227AB /* Grayscaler */ = {
+			isa = PBXGroup;
+			children = (
+				048DBB181554760100B227AB /* GrayscalerAppDelegate.h */,
+				048DBB191554760100B227AB /* GrayscalerAppDelegate.m */,
+				048DBB1B1554760200B227AB /* MainMenu.xib */,
+				048DBB29155480AC00B227AB /* Icons */,
+				048DBB0D1554760100B227AB /* Supporting Files */,
+			);
+			path = Grayscaler;
+			sourceTree = "<group>";
+		};
+		048DBB0D1554760100B227AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048DBB0E1554760100B227AB /* Desaturate-Info.plist */,
+				048DBB0F1554760100B227AB /* InfoPlist.strings */,
+				048DBB121554760100B227AB /* main.m */,
+				048DBB141554760100B227AB /* Desaturate-Prefix.pch */,
+				048DBB151554760100B227AB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048DBB29155480AC00B227AB /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				041C4C4A1581BDEC0070D052 /* desaturate-icon_20_alternate.png */,
+				041C4C4B1581BDEC0070D052 /* desaturate-icon_20.png */,
+				041C4C4C1581BDEC0070D052 /* desaturate-icon_512.png */,
+				041C4C4D1581BDEC0070D052 /* desaturate.icns */,
+				041C4C4E1581BDEC0070D052 /* grayscaler_20.png */,
+				041C4C4F1581BDEC0070D052 /* grayscaler_512.png */,
+				041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */,
+				041C4C511581BDEC0070D052 /* grayscaler.icns */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048DBB011554760100B227AB /* Desaturate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048DBB201554760200B227AB /* Build configuration list for PBXNativeTarget "Desaturate" */;
+			buildPhases = (
+				048DBAFE1554760100B227AB /* Sources */,
+				048DBAFF1554760100B227AB /* Frameworks */,
+				048DBB001554760100B227AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Desaturate;
+			productName = Grayscaler;
+			productReference = 048DBB021554760100B227AB /* Desaturate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048DBAF91554760100B227AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 048DBAFC1554760100B227AB /* Build configuration list for PBXProject "Desaturate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 048DBAF71554760100B227AB;
+			productRefGroup = 048DBB031554760100B227AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048DBB011554760100B227AB /* Desaturate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048DBB001554760100B227AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DBB111554760100B227AB /* InfoPlist.strings in Resources */,
+				048DBB171554760100B227AB /* Credits.rtf in Resources */,
+				048DBB1D1554760200B227AB /* MainMenu.xib in Resources */,
+				041C4C491581BD6B0070D052 /* desaturate.icns in Resources */,
+				041C4C521581BDEC0070D052 /* desaturate-icon_20_alternate.png in Resources */,
+				041C4C531581BDEC0070D052 /* desaturate-icon_20.png in Resources */,
+				041C4C541581BDEC0070D052 /* desaturate-icon_512.png in Resources */,
+				041C4C551581BDEC0070D052 /* desaturate.icns in Resources */,
+				041C4C561581BDEC0070D052 /* grayscaler_20.png in Resources */,
+				041C4C571581BDEC0070D052 /* grayscaler_512.png in Resources */,
+				041C4C581581BDEC0070D052 /* grayscaler_alternate_20.png in Resources */,
+				041C4C591581BDEC0070D052 /* grayscaler.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048DBAFE1554760100B227AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DBB131554760100B227AB /* main.m in Sources */,
+				048DBB1A1554760100B227AB /* GrayscalerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048DBB0F1554760100B227AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048DBB101554760100B227AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		048DBB151554760100B227AB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048DBB161554760100B227AB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		048DBB1B1554760200B227AB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048DBB1C1554760200B227AB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048DBB1E1554760200B227AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		048DBB1F1554760200B227AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		048DBB211554760200B227AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grayscaler/Desaturate-Prefix.pch";
+				INFOPLIST_FILE = "Grayscaler/Desaturate-Info.plist";
+				PRODUCT_NAME = Desaturate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		048DBB221554760200B227AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grayscaler/Desaturate-Prefix.pch";
+				INFOPLIST_FILE = "Grayscaler/Desaturate-Info.plist";
+				PRODUCT_NAME = Desaturate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048DBAFC1554760100B227AB /* Build configuration list for PBXProject "Desaturate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DBB1E1554760200B227AB /* Debug */,
+				048DBB1F1554760200B227AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048DBB201554760200B227AB /* Build configuration list for PBXNativeTarget "Desaturate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DBB211554760200B227AB /* Debug */,
+				048DBB221554760200B227AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048DBAF91554760100B227AB /* Project object */;
+}
