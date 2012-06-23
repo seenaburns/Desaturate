@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				041C4C481581BD6B0070D052 /* desaturate.icns */,
-				048DBB0C1554760100B227AB /* Grayscaler */,
+				048DBB0C1554760100B227AB /* Desaturate */,
 				048DBB051554760100B227AB /* Frameworks */,
 				048DBB031554760100B227AB /* Products */,
 			);
@@ -98,7 +98,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		048DBB0C1554760100B227AB /* Grayscaler */ = {
+		048DBB0C1554760100B227AB /* Desaturate */ = {
 			isa = PBXGroup;
 			children = (
 				048DBB181554760100B227AB /* GrayscalerAppDelegate.h */,
@@ -107,6 +107,7 @@
 				048DBB29155480AC00B227AB /* Icons */,
 				048DBB0D1554760100B227AB /* Supporting Files */,
 			);
+			name = Desaturate;
 			path = Grayscaler;
 			sourceTree = "<group>";
 		};

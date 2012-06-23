@@ -6,13 +6,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class DesaturateStatusItem;
 
 @interface GrayscalerAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSMenu *statusMenu;
 
-@property (strong) NSStatusItem * statusItem;
+@property (strong) NSStatusItem *statusItem;
 
 - (void) activateStatusMenu;
 - (IBAction)grayscaleOn:(id)sender;

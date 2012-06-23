@@ -14,7 +14,7 @@
 
 @synthesize statusItem = _statusItem; 
 
-bool grayscale_status = false;
+bool grayscaleStatus = false;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -27,17 +27,26 @@ bool grayscale_status = false;
 
 - (void) activateStatusMenu {
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-    [self.statusItem setMenu: self.statusMenu];
+    // [self.statusItem setMenu: self.statusMenu];
     [self.statusItem setHighlightMode:YES];
-    //[self.statusItem setTitle:@"gs"];
     
     [self.statusItem setImage:[NSImage imageNamed:@"desaturate-icon_20"]];
     [self.statusItem setAlternateImage:[NSImage imageNamed:@"desaturate-icon_20_alternate"]];
+    
+    // setMenu: nil required to make action work rather
+    // Than show the menu
+    [self.statusItem setMenu: nil];
+    [self.statusItem setAction:@selector(grayscaleToggle:)];
 }
 
 - (IBAction)grayscaleToggle:(id)sender {
-    grayscale_status = !grayscale_status;
-    CGDisplayForceToGray(grayscale_status);
+    // Option-clik: alternate menu
+    if ([NSEvent modifierFlags] & NSAlternateKeyMask) {
+        [self.statusItem popUpStatusItemMenu:self.statusMenu];
+    } else {
+        grayscaleStatus = !grayscaleStatus;
+        CGDisplayForceToGray(grayscaleStatus);
+    }
 }
 
 - (IBAction)grayscaleOn:(id)sender {
