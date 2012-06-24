@@ -6,19 +6,24 @@
 //
 
 #import <Cocoa/Cocoa.h>
-@class DesaturateStatusItem;
+@class PreferencesController;
 
 @interface GrayscalerAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet PreferencesController *preferencesController;
+
 @property (weak) IBOutlet NSMenu *statusMenu;
 
 @property (strong) NSStatusItem *statusItem;
 
-- (void) activateStatusMenu;
+// - (void) activateStatusMenu;
+
 - (IBAction)grayscaleOn:(id)sender;
 - (IBAction)grayscaleOff:(id)sender;
 - (IBAction)grayscaleToggle:(id)sender;
+
+- (IBAction)showPreferences:(id)sender;
+
 - (IBAction)quit:(id)sender;
 
 @end

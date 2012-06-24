@@ -6,22 +6,19 @@
 //
 
 #import "GrayscalerAppDelegate.h"
+#import "PreferencesController.h"
 
 @implementation GrayscalerAppDelegate
 
-@synthesize window = _window;
+@synthesize preferencesController;
+
 @synthesize statusMenu = _statusMenu;
 
 @synthesize statusItem = _statusItem; 
 
 bool grayscaleStatus = false;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
-}
-
-- (void) awakeFromNib {
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [self activateStatusMenu];
 }
 
@@ -47,6 +44,10 @@ bool grayscaleStatus = false;
         grayscaleStatus = !grayscaleStatus;
         CGDisplayForceToGray(grayscaleStatus);
     }
+}
+
+- (IBAction)showPreferences:(id)sender {
+    [self.preferencesController showWindow];
 }
 
 - (IBAction)grayscaleOn:(id)sender {

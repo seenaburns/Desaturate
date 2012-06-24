@@ -22,6 +22,8 @@
 		048DBB171554760100B227AB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB151554760100B227AB /* Credits.rtf */; };
 		048DBB1A1554760100B227AB /* GrayscalerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DBB191554760100B227AB /* GrayscalerAppDelegate.m */; };
 		048DBB1D1554760200B227AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB1B1554760200B227AB /* MainMenu.xib */; };
+		04FF1AA71597A191005FF935 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF1AA61597A191005FF935 /* PreferencesController.m */; };
+		04FF1AB61597A928005FF935 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FF1AB51597A928005FF935 /* Preferences.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		048DBB181554760100B227AB /* GrayscalerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrayscalerAppDelegate.h; sourceTree = "<group>"; };
 		048DBB191554760100B227AB /* GrayscalerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayscalerAppDelegate.m; sourceTree = "<group>"; };
 		048DBB1C1554760200B227AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04FF1AA51597A191005FF935 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		04FF1AA61597A191005FF935 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		04FF1AB51597A928005FF935 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,9 @@
 				048DBB181554760100B227AB /* GrayscalerAppDelegate.h */,
 				048DBB191554760100B227AB /* GrayscalerAppDelegate.m */,
 				048DBB1B1554760200B227AB /* MainMenu.xib */,
+				04FF1AB51597A928005FF935 /* Preferences.xib */,
+				04FF1AA51597A191005FF935 /* PreferencesController.h */,
+				04FF1AA61597A191005FF935 /* PreferencesController.m */,
 				048DBB29155480AC00B227AB /* Icons */,
 				048DBB0D1554760100B227AB /* Supporting Files */,
 			);
@@ -200,6 +208,7 @@
 				041C4C571581BDEC0070D052 /* grayscaler_512.png in Resources */,
 				041C4C581581BDEC0070D052 /* grayscaler_alternate_20.png in Resources */,
 				041C4C591581BDEC0070D052 /* grayscaler.icns in Resources */,
+				04FF1AB61597A928005FF935 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +221,7 @@
 			files = (
 				048DBB131554760100B227AB /* main.m in Sources */,
 				048DBB1A1554760100B227AB /* GrayscalerAppDelegate.m in Sources */,
+				04FF1AA71597A191005FF935 /* PreferencesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
