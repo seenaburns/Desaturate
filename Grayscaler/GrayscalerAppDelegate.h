@@ -18,12 +18,12 @@
 
 // - (void) activateStatusMenu;
 
+- (void)showMenu;
+- (void)grayscaleToggle;
+
 - (IBAction)grayscaleOn:(id)sender;
 - (IBAction)grayscaleOff:(id)sender;
-- (IBAction)grayscaleToggle:(id)sender;
-
 - (IBAction)showPreferences:(id)sender;
-
 - (IBAction)quit:(id)sender;
 
 @end

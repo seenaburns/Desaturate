@@ -11,11 +11,8 @@
 @implementation GrayscalerAppDelegate
 
 @synthesize preferencesController;
-
 @synthesize statusMenu = _statusMenu;
-
 @synthesize statusItem = _statusItem; 
-
 bool grayscaleStatus = false;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -33,17 +30,27 @@ bool grayscaleStatus = false;
     // setMenu: nil required to make action work rather
     // Than show the menu
     [self.statusItem setMenu: nil];
-    [self.statusItem setAction:@selector(grayscaleToggle:)];
+    [self.statusItem setAction:@selector(statusItemAction)];
 }
 
-- (IBAction)grayscaleToggle:(id)sender {
+- (void) statusItemAction {
     // Option-clik: alternate menu
-    if ([NSEvent modifierFlags] & NSAlternateKeyMask) {
-        [self.statusItem popUpStatusItemMenu:self.statusMenu];
-    } else {
-        grayscaleStatus = !grayscaleStatus;
-        CGDisplayForceToGray(grayscaleStatus);
-    }
+    BOOL optionActive = ([NSEvent modifierFlags] && NSAlternateKeyMask);
+    BOOL showMenu = ![[NSUserDefaults standardUserDefaults] boolForKey:@"menuBarIconPreference"];
+
+    if(showMenu)
+        optionActive ? [self grayscaleToggle] : [self showMenu];
+    else
+        optionActive ? [self showMenu] : [self grayscaleToggle];
+}
+
+- (void)showMenu {
+    [self.statusItem popUpStatusItemMenu:self.statusMenu];
+}
+
+- (void)grayscaleToggle {
+    grayscaleStatus = !grayscaleStatus;
+    CGDisplayForceToGray(grayscaleStatus);
 }
 
 - (IBAction)showPreferences:(id)sender {

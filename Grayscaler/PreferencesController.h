@@ -14,6 +14,11 @@
 @property (weak) IBOutlet NSPopUpButton *menuBarIconOptions;
 @property (weak) IBOutlet NSButton *launchAtLoginButton;
 
+
+- (IBAction)setLaunchAtLoginPreference:(id)sender;
+- (IBAction)setMenuBarIconPreference:(id)sender;
+
+- (void) updatePreferenceDisplay;
 - (void) showWindow;
 
 @end
