@@ -16,6 +16,7 @@
 		041C4C571581BDEC0070D052 /* grayscaler_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4F1581BDEC0070D052 /* grayscaler_512.png */; };
 		041C4C581581BDEC0070D052 /* grayscaler_alternate_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */; };
 		041C4C591581BDEC0070D052 /* grayscaler.icns in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C511581BDEC0070D052 /* grayscaler.icns */; };
+		0473ECEF159837E700A9A633 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473ECEE159837E700A9A633 /* LaunchAtLoginController.m */; };
 		048DBB071554760100B227AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048DBB061554760100B227AB /* Cocoa.framework */; };
 		048DBB111554760100B227AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB0F1554760100B227AB /* InfoPlist.strings */; };
 		048DBB131554760100B227AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DBB121554760100B227AB /* main.m */; };
@@ -36,6 +37,8 @@
 		041C4C4F1581BDEC0070D052 /* grayscaler_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_512.png; path = Icons/grayscaler_512.png; sourceTree = SOURCE_ROOT; };
 		041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_alternate_20.png; path = Icons/grayscaler_alternate_20.png; sourceTree = SOURCE_ROOT; };
 		041C4C511581BDEC0070D052 /* grayscaler.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = grayscaler.icns; path = Icons/grayscaler.icns; sourceTree = SOURCE_ROOT; };
+		0473ECED159837E700A9A633 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		0473ECEE159837E700A9A633 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
 		048DBB021554760100B227AB /* Desaturate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desaturate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048DBB061554760100B227AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		048DBB091554760100B227AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -106,6 +109,8 @@
 		048DBB0C1554760100B227AB /* Desaturate */ = {
 			isa = PBXGroup;
 			children = (
+				0473ECED159837E700A9A633 /* LaunchAtLoginController.h */,
+				0473ECEE159837E700A9A633 /* LaunchAtLoginController.m */,
 				048DBB181554760100B227AB /* GrayscalerAppDelegate.h */,
 				048DBB191554760100B227AB /* GrayscalerAppDelegate.m */,
 				048DBB1B1554760200B227AB /* MainMenu.xib */,
@@ -222,6 +227,7 @@
 				048DBB131554760100B227AB /* main.m in Sources */,
 				048DBB1A1554760100B227AB /* GrayscalerAppDelegate.m in Sources */,
 				04FF1AA71597A191005FF935 /* PreferencesController.m in Sources */,
+				0473ECEF159837E700A9A633 /* LaunchAtLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

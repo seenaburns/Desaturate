@@ -8,6 +8,7 @@
 
 #import "PreferencesController.h"
 #import <ServiceManagement/ServiceManagement.h>
+#import "LaunchAtLoginController.h"
 
 @implementation PreferencesController
 
@@ -16,6 +17,9 @@
 @synthesize launchAtLoginButton;
 
 - (IBAction)setLaunchAtLoginPreference:(id)sender {
+    LaunchAtLoginController *loginController;
+    [loginController toggleLoginItem:[self.launchAtLoginButton state]];
+    
     [[NSUserDefaults standardUserDefaults] setBool: [self.launchAtLoginButton state] forKey:@"launchAtLogin"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
