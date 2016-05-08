@@ -35,6 +35,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     statusItem.menu = statusMenu
     
     let icon = NSImage(named: "statusIcon")
+    icon?.template = true
     statusItem.image = icon
     statusItem.menu = statusMenu
     
