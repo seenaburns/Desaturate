@@ -7,253 +7,223 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041C4C491581BD6B0070D052 /* desaturate.icns in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C481581BD6B0070D052 /* desaturate.icns */; };
-		041C4C521581BDEC0070D052 /* desaturate-icon_20_alternate.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4A1581BDEC0070D052 /* desaturate-icon_20_alternate.png */; };
-		041C4C531581BDEC0070D052 /* desaturate-icon_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4B1581BDEC0070D052 /* desaturate-icon_20.png */; };
-		041C4C541581BDEC0070D052 /* desaturate-icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4C1581BDEC0070D052 /* desaturate-icon_512.png */; };
-		041C4C551581BDEC0070D052 /* desaturate.icns in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4D1581BDEC0070D052 /* desaturate.icns */; };
-		041C4C561581BDEC0070D052 /* grayscaler_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4E1581BDEC0070D052 /* grayscaler_20.png */; };
-		041C4C571581BDEC0070D052 /* grayscaler_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C4F1581BDEC0070D052 /* grayscaler_512.png */; };
-		041C4C581581BDEC0070D052 /* grayscaler_alternate_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */; };
-		041C4C591581BDEC0070D052 /* grayscaler.icns in Resources */ = {isa = PBXBuildFile; fileRef = 041C4C511581BDEC0070D052 /* grayscaler.icns */; };
-		0473ECEF159837E700A9A633 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473ECEE159837E700A9A633 /* LaunchAtLoginController.m */; };
-		048DBB071554760100B227AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048DBB061554760100B227AB /* Cocoa.framework */; };
-		048DBB111554760100B227AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB0F1554760100B227AB /* InfoPlist.strings */; };
-		048DBB131554760100B227AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DBB121554760100B227AB /* main.m */; };
-		048DBB171554760100B227AB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB151554760100B227AB /* Credits.rtf */; };
-		048DBB1A1554760100B227AB /* GrayscalerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DBB191554760100B227AB /* GrayscalerAppDelegate.m */; };
-		048DBB1D1554760200B227AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048DBB1B1554760200B227AB /* MainMenu.xib */; };
-		04FF1AA71597A191005FF935 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF1AA61597A191005FF935 /* PreferencesController.m */; };
-		04FF1AB61597A928005FF935 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FF1AB51597A928005FF935 /* Preferences.xib */; };
+		04BFB5DA1CDE69A8006CB683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFB5D91CDE69A8006CB683 /* AppDelegate.swift */; };
+		04BFB5DC1CDE69A8006CB683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BFB5DB1CDE69A8006CB683 /* Assets.xcassets */; };
+		04BFB5DF1CDE69A8006CB683 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BFB5DD1CDE69A8006CB683 /* MainMenu.xib */; };
+		04BFB60E1CDE8B33006CB683 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BFB60C1CDE8B33006CB683 /* PreferencesWindow.xib */; };
+		04BFB61A1CDEAC0E006CB683 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFB60B1CDE8B33006CB683 /* PreferencesWindow.swift */; };
+		AF17F5EA0B7A55B0E572F607 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63241AF3FD9CE42E8FA360B7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041C4C481581BD6B0070D052 /* desaturate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = desaturate.icns; sourceTree = "<group>"; };
-		041C4C4A1581BDEC0070D052 /* desaturate-icon_20_alternate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "desaturate-icon_20_alternate.png"; path = "Icons/desaturate-icon_20_alternate.png"; sourceTree = SOURCE_ROOT; };
-		041C4C4B1581BDEC0070D052 /* desaturate-icon_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "desaturate-icon_20.png"; path = "Icons/desaturate-icon_20.png"; sourceTree = SOURCE_ROOT; };
-		041C4C4C1581BDEC0070D052 /* desaturate-icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "desaturate-icon_512.png"; path = "Icons/desaturate-icon_512.png"; sourceTree = SOURCE_ROOT; };
-		041C4C4D1581BDEC0070D052 /* desaturate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = desaturate.icns; path = Icons/desaturate.icns; sourceTree = SOURCE_ROOT; };
-		041C4C4E1581BDEC0070D052 /* grayscaler_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_20.png; path = Icons/grayscaler_20.png; sourceTree = SOURCE_ROOT; };
-		041C4C4F1581BDEC0070D052 /* grayscaler_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_512.png; path = Icons/grayscaler_512.png; sourceTree = SOURCE_ROOT; };
-		041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayscaler_alternate_20.png; path = Icons/grayscaler_alternate_20.png; sourceTree = SOURCE_ROOT; };
-		041C4C511581BDEC0070D052 /* grayscaler.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = grayscaler.icns; path = Icons/grayscaler.icns; sourceTree = SOURCE_ROOT; };
-		0473ECED159837E700A9A633 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
-		0473ECEE159837E700A9A633 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
-		048DBB021554760100B227AB /* Desaturate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desaturate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		048DBB061554760100B227AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		048DBB091554760100B227AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		048DBB0A1554760100B227AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		048DBB0B1554760100B227AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		048DBB0E1554760100B227AB /* Desaturate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desaturate-Info.plist"; sourceTree = "<group>"; };
-		048DBB101554760100B227AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		048DBB121554760100B227AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		048DBB141554760100B227AB /* Desaturate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Desaturate-Prefix.pch"; sourceTree = "<group>"; };
-		048DBB161554760100B227AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		048DBB181554760100B227AB /* GrayscalerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrayscalerAppDelegate.h; sourceTree = "<group>"; };
-		048DBB191554760100B227AB /* GrayscalerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayscalerAppDelegate.m; sourceTree = "<group>"; };
-		048DBB1C1554760200B227AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		04FF1AA51597A191005FF935 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
-		04FF1AA61597A191005FF935 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
-		04FF1AB51597A928005FF935 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		04BFB5D61CDE69A8006CB683 /* Desaturate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desaturate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BFB5D91CDE69A8006CB683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04BFB5DB1CDE69A8006CB683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BFB5DE1CDE69A8006CB683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04BFB5E01CDE69A8006CB683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BFB6081CDE6FFE006CB683 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		04BFB60B1CDE8B33006CB683 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		04BFB60C1CDE8B33006CB683 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		5511003DD277C431FB917A87 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		63241AF3FD9CE42E8FA360B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8E223854BC3CBAF5CD5AB4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		048DBAFF1554760100B227AB /* Frameworks */ = {
+		04BFB5D31CDE69A8006CB683 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048DBB071554760100B227AB /* Cocoa.framework in Frameworks */,
+				AF17F5EA0B7A55B0E572F607 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		048DBAF71554760100B227AB = {
+		04BFB5CD1CDE69A8006CB683 = {
 			isa = PBXGroup;
 			children = (
-				041C4C481581BD6B0070D052 /* desaturate.icns */,
-				048DBB0C1554760100B227AB /* Desaturate */,
-				048DBB051554760100B227AB /* Frameworks */,
-				048DBB031554760100B227AB /* Products */,
+				04BFB5D81CDE69A8006CB683 /* Desaturate */,
+				04BFB5D71CDE69A8006CB683 /* Products */,
+				93266BE9BC033DE24ED1F082 /* Pods */,
+				F5925649A4E8B299B7E53688 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		048DBB031554760100B227AB /* Products */ = {
+		04BFB5D71CDE69A8006CB683 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				048DBB021554760100B227AB /* Desaturate.app */,
+				04BFB5D61CDE69A8006CB683 /* Desaturate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		048DBB051554760100B227AB /* Frameworks */ = {
+		04BFB5D81CDE69A8006CB683 /* Desaturate */ = {
 			isa = PBXGroup;
 			children = (
-				048DBB061554760100B227AB /* Cocoa.framework */,
-				048DBB081554760100B227AB /* Other Frameworks */,
+				04BFB6081CDE6FFE006CB683 /* Bridge.h */,
+				04BFB5D91CDE69A8006CB683 /* AppDelegate.swift */,
+				04BFB5DB1CDE69A8006CB683 /* Assets.xcassets */,
+				04BFB5DD1CDE69A8006CB683 /* MainMenu.xib */,
+				04BFB60B1CDE8B33006CB683 /* PreferencesWindow.swift */,
+				04BFB60C1CDE8B33006CB683 /* PreferencesWindow.xib */,
+				04BFB5E01CDE69A8006CB683 /* Info.plist */,
+			);
+			path = Desaturate;
+			sourceTree = "<group>";
+		};
+		93266BE9BC033DE24ED1F082 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5511003DD277C431FB917A87 /* Pods.debug.xcconfig */,
+				EE8E223854BC3CBAF5CD5AB4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5925649A4E8B299B7E53688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63241AF3FD9CE42E8FA360B7 /* libPods.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		048DBB081554760100B227AB /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				048DBB091554760100B227AB /* AppKit.framework */,
-				048DBB0A1554760100B227AB /* CoreData.framework */,
-				048DBB0B1554760100B227AB /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		048DBB0C1554760100B227AB /* Desaturate */ = {
-			isa = PBXGroup;
-			children = (
-				0473ECED159837E700A9A633 /* LaunchAtLoginController.h */,
-				0473ECEE159837E700A9A633 /* LaunchAtLoginController.m */,
-				048DBB181554760100B227AB /* GrayscalerAppDelegate.h */,
-				048DBB191554760100B227AB /* GrayscalerAppDelegate.m */,
-				048DBB1B1554760200B227AB /* MainMenu.xib */,
-				04FF1AB51597A928005FF935 /* Preferences.xib */,
-				04FF1AA51597A191005FF935 /* PreferencesController.h */,
-				04FF1AA61597A191005FF935 /* PreferencesController.m */,
-				048DBB29155480AC00B227AB /* Icons */,
-				048DBB0D1554760100B227AB /* Supporting Files */,
-			);
-			name = Desaturate;
-			path = Grayscaler;
-			sourceTree = "<group>";
-		};
-		048DBB0D1554760100B227AB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				048DBB0E1554760100B227AB /* Desaturate-Info.plist */,
-				048DBB0F1554760100B227AB /* InfoPlist.strings */,
-				048DBB121554760100B227AB /* main.m */,
-				048DBB141554760100B227AB /* Desaturate-Prefix.pch */,
-				048DBB151554760100B227AB /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		048DBB29155480AC00B227AB /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				041C4C4A1581BDEC0070D052 /* desaturate-icon_20_alternate.png */,
-				041C4C4B1581BDEC0070D052 /* desaturate-icon_20.png */,
-				041C4C4C1581BDEC0070D052 /* desaturate-icon_512.png */,
-				041C4C4D1581BDEC0070D052 /* desaturate.icns */,
-				041C4C4E1581BDEC0070D052 /* grayscaler_20.png */,
-				041C4C4F1581BDEC0070D052 /* grayscaler_512.png */,
-				041C4C501581BDEC0070D052 /* grayscaler_alternate_20.png */,
-				041C4C511581BDEC0070D052 /* grayscaler.icns */,
-			);
-			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		048DBB011554760100B227AB /* Desaturate */ = {
+		04BFB5D51CDE69A8006CB683 /* Desaturate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048DBB201554760200B227AB /* Build configuration list for PBXNativeTarget "Desaturate" */;
+			buildConfigurationList = 04BFB5F91CDE69A8006CB683 /* Build configuration list for PBXNativeTarget "Desaturate" */;
 			buildPhases = (
-				048DBAFE1554760100B227AB /* Sources */,
-				048DBAFF1554760100B227AB /* Frameworks */,
-				048DBB001554760100B227AB /* Resources */,
+				EC92935233110A82F7D1EB3C /* Check Pods Manifest.lock */,
+				04BFB5D21CDE69A8006CB683 /* Sources */,
+				04BFB5D31CDE69A8006CB683 /* Frameworks */,
+				04BFB5D41CDE69A8006CB683 /* Resources */,
+				0A477F43E904A68DB5BB6F79 /* Embed Pods Frameworks */,
+				2BEC2AA189D3496E1AD49F90 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Desaturate;
-			productName = Grayscaler;
-			productReference = 048DBB021554760100B227AB /* Desaturate.app */;
+			productName = Desaturate;
+			productReference = 04BFB5D61CDE69A8006CB683 /* Desaturate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		048DBAF91554760100B227AB /* Project object */ = {
+		04BFB5CE1CDE69A8006CB683 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = seenaburns;
+				TargetAttributes = {
+					04BFB5D51CDE69A8006CB683 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
 			};
-			buildConfigurationList = 048DBAFC1554760100B227AB /* Build configuration list for PBXProject "Desaturate" */;
+			buildConfigurationList = 04BFB5D11CDE69A8006CB683 /* Build configuration list for PBXProject "Desaturate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 048DBAF71554760100B227AB;
-			productRefGroup = 048DBB031554760100B227AB /* Products */;
+			mainGroup = 04BFB5CD1CDE69A8006CB683;
+			productRefGroup = 04BFB5D71CDE69A8006CB683 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				048DBB011554760100B227AB /* Desaturate */,
+				04BFB5D51CDE69A8006CB683 /* Desaturate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		048DBB001554760100B227AB /* Resources */ = {
+		04BFB5D41CDE69A8006CB683 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048DBB111554760100B227AB /* InfoPlist.strings in Resources */,
-				048DBB171554760100B227AB /* Credits.rtf in Resources */,
-				048DBB1D1554760200B227AB /* MainMenu.xib in Resources */,
-				041C4C491581BD6B0070D052 /* desaturate.icns in Resources */,
-				041C4C521581BDEC0070D052 /* desaturate-icon_20_alternate.png in Resources */,
-				041C4C531581BDEC0070D052 /* desaturate-icon_20.png in Resources */,
-				041C4C541581BDEC0070D052 /* desaturate-icon_512.png in Resources */,
-				041C4C551581BDEC0070D052 /* desaturate.icns in Resources */,
-				041C4C561581BDEC0070D052 /* grayscaler_20.png in Resources */,
-				041C4C571581BDEC0070D052 /* grayscaler_512.png in Resources */,
-				041C4C581581BDEC0070D052 /* grayscaler_alternate_20.png in Resources */,
-				041C4C591581BDEC0070D052 /* grayscaler.icns in Resources */,
-				04FF1AB61597A928005FF935 /* Preferences.xib in Resources */,
+				04BFB5DC1CDE69A8006CB683 /* Assets.xcassets in Resources */,
+				04BFB60E1CDE8B33006CB683 /* PreferencesWindow.xib in Resources */,
+				04BFB5DF1CDE69A8006CB683 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A477F43E904A68DB5BB6F79 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BEC2AA189D3496E1AD49F90 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC92935233110A82F7D1EB3C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		048DBAFE1554760100B227AB /* Sources */ = {
+		04BFB5D21CDE69A8006CB683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048DBB131554760100B227AB /* main.m in Sources */,
-				048DBB1A1554760100B227AB /* GrayscalerAppDelegate.m in Sources */,
-				04FF1AA71597A191005FF935 /* PreferencesController.m in Sources */,
-				0473ECEF159837E700A9A633 /* LaunchAtLoginController.m in Sources */,
+				04BFB61A1CDEAC0E006CB683 /* PreferencesWindow.swift in Sources */,
+				04BFB5DA1CDE69A8006CB683 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		048DBB0F1554760100B227AB /* InfoPlist.strings */ = {
+		04BFB5DD1CDE69A8006CB683 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				048DBB101554760100B227AB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		048DBB151554760100B227AB /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				048DBB161554760100B227AB /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		048DBB1B1554760200B227AB /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				048DBB1C1554760200B227AB /* en */,
+				04BFB5DE1CDE69A8006CB683 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -261,97 +231,144 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		048DBB1E1554760200B227AB /* Debug */ = {
+		04BFB5F71CDE69A8006CB683 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		048DBB1F1554760200B227AB /* Release */ = {
+		04BFB5F81CDE69A8006CB683 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		048DBB211554760200B227AB /* Debug */ = {
+		04BFB5FA1CDE69A8006CB683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5511003DD277C431FB917A87 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Grayscaler/Desaturate-Prefix.pch";
-				INFOPLIST_FILE = "Grayscaler/Desaturate-Info.plist";
-				PRODUCT_NAME = Desaturate;
-				WRAPPER_EXTENSION = app;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Desaturate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = seenaburns.Desaturate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Desaturate/Bridge.h;
 			};
 			name = Debug;
 		};
-		048DBB221554760200B227AB /* Release */ = {
+		04BFB5FB1CDE69A8006CB683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8E223854BC3CBAF5CD5AB4 /* Pods.release.xcconfig */;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Grayscaler/Desaturate-Prefix.pch";
-				INFOPLIST_FILE = "Grayscaler/Desaturate-Info.plist";
-				PRODUCT_NAME = Desaturate;
-				WRAPPER_EXTENSION = app;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Desaturate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = seenaburns.Desaturate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Desaturate/Bridge.h;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048DBAFC1554760100B227AB /* Build configuration list for PBXProject "Desaturate" */ = {
+		04BFB5D11CDE69A8006CB683 /* Build configuration list for PBXProject "Desaturate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				048DBB1E1554760200B227AB /* Debug */,
-				048DBB1F1554760200B227AB /* Release */,
+				04BFB5F71CDE69A8006CB683 /* Debug */,
+				04BFB5F81CDE69A8006CB683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048DBB201554760200B227AB /* Build configuration list for PBXNativeTarget "Desaturate" */ = {
+		04BFB5F91CDE69A8006CB683 /* Build configuration list for PBXNativeTarget "Desaturate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				048DBB211554760200B227AB /* Debug */,
-				048DBB221554760200B227AB /* Release */,
+				04BFB5FA1CDE69A8006CB683 /* Debug */,
+				04BFB5FB1CDE69A8006CB683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 048DBAF91554760100B227AB /* Project object */;
+	rootObject = 04BFB5CE1CDE69A8006CB683 /* Project object */;
 }

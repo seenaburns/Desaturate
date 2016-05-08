@@ -2,6 +2,8 @@ Releases/
 Icons/
 Build/
 Graphics/
+Pods/
+Podfile.lock
 
 # Github .gitignore for objective-c
 # Xcode
